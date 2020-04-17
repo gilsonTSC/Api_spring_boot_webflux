@@ -9,7 +9,7 @@ import com.gilson.webflux.document.Playlist;
 import com.gilson.webflux.repository.PlaylistRepository;
 
 import reactor.core.publisher.Flux;
-
+/*
 @Component
 public class DummyData implements CommandLineRunner {
 
@@ -31,4 +31,4 @@ public class DummyData implements CommandLineRunner {
 				.subscribe(System.out::println);
 	}
 
-}
+}*/
