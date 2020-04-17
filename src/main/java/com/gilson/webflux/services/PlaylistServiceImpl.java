@@ -4,6 +4,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.gilson.webflux.document.Playlist;
+import com.gilson.webflux.repository.PlaylistRepository;
 
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
@@ -12,7 +13,7 @@ import reactor.core.publisher.Mono;
 public class PlaylistServiceImpl implements PlaylistService{
 
 	@Autowired
-	PlaylistService pr;
+	PlaylistRepository pr;
 	
 	@Override
 	public Flux<Playlist> findAll() {
